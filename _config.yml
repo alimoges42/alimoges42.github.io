@@ -1,9 +1,10 @@
 #
 # This file contains configuration flags to customize your site
 #
+theme: jekyll-theme-reverie
 
 # Name of your site (displayed in the header)
-name: Reverie
+name: Site Name
 
 # Name of the author
 author: Aaron Limoges
