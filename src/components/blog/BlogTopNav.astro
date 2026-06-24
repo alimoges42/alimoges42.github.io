@@ -68,7 +68,16 @@ const shouldShowTocAction = showTocIcon && tocItems.length > 0;
   </button>
 
   <a class="brand" href={withBase('/')} aria-label={`Go to ${site.title} home`}>
-    <span class="brand-mark" aria-hidden="true"></span>
+    <svg
+      class="brand-mark"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 -960 960 960"
+      aria-hidden="true"
+      focusable="false"
+      ><path
+        d="M383-480 200-664l56-56 240 240-240 240-56-56 183-184Zm264 0L464-664l56-56 240 240-240 240-56-56 183-184Z"
+      ></path></svg
+    >
     <span class="brand-title">
       <span>{site.title}</span>
       {brandRouteLabel && <span class="brand-route"> · {brandRouteLabel}</span>}
@@ -376,11 +385,10 @@ const shouldShowTocAction = showTocIcon && tocItems.length > 0;
   }
 
   .brand-mark {
-    width: 11px;
-    height: 11px;
-    border-radius: 50%;
-    background: var(--paper-accent);
-    box-shadow: none;
+    width: 18px;
+    height: 18px;
+    flex: 0 0 auto;
+    fill: var(--paper-accent);
   }
 
   .nav-links {
