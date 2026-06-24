@@ -1,13 +1,11 @@
 [config.site]
-title = "navfolio"
-description = "A personal navigation portfolio starter built with Astro."
-pageTitle = "navfolio | Digital Publication Space"
-pageDescription = "A calm AI-native personal publication space for notes, links, and writing."
-repository = "https://github.com/dodolalorc/astro-navfolio"
-footerNote = "Released as an open-source starter."
+title = "Aaron Limoges"
+description = "Decoding problems in biotech."
+pageTitle = "Aaron Limoges | Scientist & Healthcare Strategist"
+pageDescription = "Notes, projects, and writing at the intersection of biology, healthcare, and AI."
+repository = "https://github.com/alimoges42"
+footerNote = "Built with Astro."
 
-[config.vibe]
-showTrail = true
 
 [config.theme]
 # Available palettes:
@@ -37,10 +35,10 @@ maxResults = 6
 postsPerPage = 6
 
 [config.comments.giscus]
-repo = "dodolalorc/astro-navfolio"
-repo_id = "R_kgDOSaQejw"
+repo = "alimoges42/alimoges42.github.io"
+repo_id = ""
 category = "Announcements"
-category_id = "DIC_kwDOSaQej84C9di9"
+category_id = ""
 mapping = "pathname"
 strict = "0"
 reactions_enabled = "1"
@@ -48,7 +46,7 @@ emit_metadata = "0"
 input_position = "top"
 light_theme = "light"
 dark_theme = "dark"
-lang = "zh-CN"
+lang = "en"
 loading = "lazy"
 
 [config.comments.utterances]
@@ -59,21 +57,21 @@ theme = "github-light"
 
 [config.comments.waline]
 server_url = ""
-lang = "zh-CN"
+lang = "en"
 dark = "html.dark"
 pageview = true
 comment = true
 
 [config.profile]
-name = "navfolio"
-handle = "@navfolio"
-role = "A Cat Developer"
-company = "Independent Studio"
-location = "Remote"
-email = "hello@navfolio.site"
-website = "https://astro.navfolio.site/"
-github = "https://github.com/dodolalorc/astro-navfolio"
-meta = "Open-source maintainer"
+name = "Aaron Limoges"
+handle = "@alimoges42"
+role = "Scientist & Healthcare Strategist"
+company = ""
+location = "Washington, DC"
+email = "aaronlimoges42@gmail.com"
+website = "https://aaronlimoges.tech"
+github = "https://github.com/alimoges42"
+meta = "PhD · Biology & Neuroscience"
 avatar = "/images/logo.png"
 
 [[config.topNav.links]]
@@ -88,9 +86,6 @@ href = "/blog"
 label = "Projects"
 href = "/projects"
 
-[[config.topNav.links]]
-label = "Vibe"
-href = "/vibe"
 
 [[config.topNav.links]]
 label = "About"
@@ -101,22 +96,19 @@ layout = "grid"
 
 [config.home.quote]
 text = [
-  "Navigate your world,",
-  "Showcase your story,",
-  "and keep everything in one place.",
+  "Decoding problems",
+  "at the intersection of",
+  "biology, health, and data.",
 ]
 image = "/images/logo-with-name.png"
 
 [config.home.intro]
-title = "here is navfolio"
-name = "navfolio"
+title = "here is Aaron"
+name = "Aaron"
 body = [
-  "The name combines \"Navigation\" and \"Portfolio\".",
-  "Navfolio prioritizes lightweight organization, seamless reading, and developer-friendly aesthetics.",
-  "It’s less a resume than a personal OS for your ideas, projects, notes, and online presence.",
-  "这个名字融合了“导航”与“作品集”。",
-  "Navfolio 专注于轻量级组织、流畅的阅读体验，以及对开发者友好的美学设计。",
-  "它不像一份简历，更像是一个属于你自己的个人操作系统——承载想法、项目、笔记与网络足迹。",
+  "Scientist, strategist, and occasional developer.",
+  "I write about the intersection of biology, healthcare, and AI  -  what's actually changing, what's still broken, and what's worth paying attention to.",
+  "This site is a running index of notes, projects, and ideas I find worth thinking through.",
 ]
 image = "/images/logo-cat.png"
 
@@ -129,38 +121,33 @@ startDate = ""
 dateArchiveBaseHref = ""
 
 [[config.home.navigation]]
-icon = "compass"
-title = "Portfolio"
-subtitle = "Selected work and case studies"
-href = "https://astro.navfolio.site/"
-
-[[config.home.navigation]]
 icon = "pen"
 title = "Blog"
 subtitle = "Essays, notes, and field reports"
 href = "/blog"
 
 [[config.home.navigation]]
+icon = "compass"
+title = "Projects"
+subtitle = "Things I've built or am building"
+href = "/projects"
+
+[[config.home.navigation]]
 icon = "briefcase"
-title = "Resume"
-subtitle = "Career profile and experience"
-href = "https://github.com/dodolalorc/navfolio"
+title = "About"
+subtitle = "Background, interests, and contact"
+href = "/about"
 
 [[config.home.navigation]]
 icon = "github"
-title = "Open Source"
+title = "GitHub"
 subtitle = "Code, experiments, and tools"
-href = "https://github.com/dodolalorc/astro-navfolio"
+href = "https://github.com/alimoges42"
 
 [[config.home.connect]]
 label = "GitHub"
-href = "https://github.com/dodolalorc/astro-navfolio"
+href = "https://github.com/alimoges42"
 icon = "github"
-
-[[config.home.connect]]
-label = "Website"
-href = "https://astro.navfolio.site/"
-icon = "compass"
 
 [[config.home.connect]]
 label = "Blog"
@@ -174,25 +161,25 @@ icon = "repo"
 
 [[config.home.connect]]
 label = "Email"
-href = "mailto:hello@navfolio.site"
+href = "mailto:aaronlimoges42@gmail.com"
 icon = "mail"
 
 [[config.home.doing]]
-text = "Shipping a personal dashboard template"
+text = "Exploring AI applications in drug discovery and clinical research"
 mark = "01"
 
 [[config.home.doing]]
-text = "Writing reusable notes for future projects"
+text = "Writing notes on biotech strategy and healthcare systems"
 mark = "02"
 
 [[config.home.doing]]
-text = "Improving static-site publishing workflow"
+text = "Building data tools for life science workflows"
 mark = "03"
 
 [[config.home.doing]]
-text = "Collecting useful developer resources"
+text = "Reading on computational neuroscience and ML methods"
 mark = "04"
 
 [[config.home.doing]]
-text = "Exploring small open-source ideas"
+text = "Curating resources on biotech, health tech, and AI"
 mark = "05"

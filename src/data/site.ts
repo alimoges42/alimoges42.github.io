@@ -26,7 +26,6 @@ export type SiteConfig = Awaited<ReturnType<typeof getSiteConfig>>;
 export type ThemePalette = SiteConfig['theme']['palette'];
 export type SiteProfile = SiteConfig['profile'];
 export type SiteLink = SiteConfig['topNav']['links'][number];
-export type SiteVibe = SiteConfig['vibe'];
 export type SiteSearch = SiteConfig['search'];
 export type SiteBlog = SiteConfig['blog'];
 export type SiteCode = SiteConfig['code'];
