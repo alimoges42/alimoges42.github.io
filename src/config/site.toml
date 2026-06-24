@@ -65,14 +65,14 @@ comment = true
 [config.profile]
 name = "Aaron Limoges"
 handle = "@alimoges42"
-role = "Scientist & Healthcare Strategist"
+role = "Life Sciences Strategy"
 company = ""
 location = "Washington, DC"
-email = "aaronlimoges42@gmail.com"
 website = "https://aaronlimoges.tech"
+linkedin = "https://linkedin.com/in/aaron-limoges"
 github = "https://github.com/alimoges42"
 meta = "PhD · Biology & Neuroscience"
-avatar = "/images/logo.png"
+avatar = "/images/img.png"
 
 [[config.topNav.links]]
 label = "Home"
@@ -121,28 +121,16 @@ startDate = ""
 dateArchiveBaseHref = ""
 
 [[config.home.navigation]]
-icon = "pen"
-title = "Blog"
-subtitle = "Essays, notes, and field reports"
-href = "/blog"
-
-[[config.home.navigation]]
-icon = "compass"
-title = "Projects"
-subtitle = "Things I've built or am building"
-href = "/projects"
-
-[[config.home.navigation]]
-icon = "briefcase"
-title = "About"
-subtitle = "Background, interests, and contact"
-href = "/about"
-
-[[config.home.navigation]]
 icon = "github"
 title = "GitHub"
 subtitle = "Code, experiments, and tools"
 href = "https://github.com/alimoges42"
+
+[[config.home.navigation]]
+icon = "linkedin"
+title = "LinkedIn"
+subtitle = "Professional profile"
+href = "https://linkedin.com/in/aaron-limoges"
 
 [[config.home.connect]]
 label = "GitHub"
@@ -159,10 +147,6 @@ label = "Projects"
 href = "/projects"
 icon = "repo"
 
-[[config.home.connect]]
-label = "Email"
-href = "mailto:aaronlimoges42@gmail.com"
-icon = "mail"
 
 [[config.home.doing]]
 text = "Exploring AI applications in drug discovery and clinical research"
